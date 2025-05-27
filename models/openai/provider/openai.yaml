@@ -76,6 +76,7 @@ models:
   llm:
     predefined:
       - "models/llm/*.yaml"
+    position: "models/llm/_position.yaml"
   text_embedding:
     predefined:
       - "models/text_embedding/*.yaml"
